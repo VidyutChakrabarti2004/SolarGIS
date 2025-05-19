@@ -21,7 +21,7 @@ browsersession = SessionStorage()
 
 api_key = st.secrets['api_keys']['SOLCAST_API_KEY']
 gemapi_key = st.secrets['api_keys']['GEMINI_API_KEY']
-st.set_page_config(layout="wide", page_title='SolarGis', page_icon = 'solargislogo.png')
+st.set_page_config(layout="wide", page_title='solarno', page_icon = 'solarnologo.png')
 with open("finalstyle.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 

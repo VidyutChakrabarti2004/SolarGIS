@@ -10,4 +10,4 @@ EXPOSE 8080
 
 COPY . /app
 
-CMD streamlit run --server.port 8080 --server.enableCORS false solargis.py
+CMD streamlit run --server.port 8080 --server.enableCORS false solarno.py
