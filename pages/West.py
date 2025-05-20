@@ -14,7 +14,7 @@ browsersession = SessionStorage()
 
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
-st.set_page_config(layout="wide", page_title='solarno', page_icon = 'solarnologo.png')
+st.set_page_config(layout="wide", page_title='solargis', page_icon = 'solargislogo.png')
 from helperfuncs import alter_df
 
 with st.empty(): 

@@ -17,7 +17,7 @@ from folium.plugins import LocateControl
 from streamlit_session_browser_storage import SessionStorage
 
 api_key = st.secrets['api_keys']['SOLCAST_API_KEY']
-st.set_page_config(layout="wide", page_title='solarno', page_icon = 'solarnologo.png')
+st.set_page_config(layout="wide", page_title='solargis', page_icon = 'solargislogo.png')
 
 service_account_key = {
     "type": st.secrets["service_account_key"]["type"],

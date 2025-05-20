@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
-st.set_page_config(layout="wide", page_title='Solarno', page_icon = 'solarnologo.png')
+st.set_page_config(layout="wide", page_title='solargis', page_icon = 'solargislogo.png')
 
 with st.empty():
     st.markdown(
@@ -24,7 +24,7 @@ html_code = """
 <div style="display: flex; position: relative; z-index: 1; padding: 2rem; color: black; height: 80vh;">
     <!-- Left side content with static text -->
     <div style="flex: 2.1; text-align: left; padding-top: 300px; padding-right:100px;">  <!-- Adjust this value to move text down -->
-        <h1 style="font-family: 'Times New Roman', serif; font-size: 4.5em; margin: 0;">Solarno</h1>
+        <h1 style="font-family: 'Times New Roman', serif; font-size: 4.5em; margin: 0;">Solargis</h1>
         <div id="animated-text" style="font-family: 'Lucida Handwriting', cursive; font-size: 1.2em;">
             <!-- Words will be inserted here by JavaScript -->
         </div>

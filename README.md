@@ -1,4 +1,4 @@
-# Solarno
+# Solargis
  Predicting Rooftop solar energy potential using real time solar irradiance data combined with extracted building footprints. Adjusting PV output taking into consideration partial shading originating from surrounding obstacles such as trees, buildings, etc. 
 
 ### Project Objectives:
@@ -11,7 +11,7 @@
 To run the Streamlit app, open the terminal inside the folder and use the following command:
 
 ```bash
-streamlit run solarno.py
+streamlit run solargis.py
 ```
 
 ### Library installations: 
